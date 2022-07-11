@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Fasal-Assignment/static/css/main.0e497ee4.css",
+    "main.js": "/Fasal-Assignment/static/js/main.3c577473.js",
+    "index.html": "/Fasal-Assignment/index.html",
+    "main.0e497ee4.css.map": "/Fasal-Assignment/static/css/main.0e497ee4.css.map",
+    "main.3c577473.js.map": "/Fasal-Assignment/static/js/main.3c577473.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e497ee4.css",
+    "static/js/main.3c577473.js"
+  ]
+}
