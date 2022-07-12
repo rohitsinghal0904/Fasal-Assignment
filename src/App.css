@@ -5,17 +5,29 @@ body {
 
 .movie-app > .row {
 	overflow-x: auto;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
+	display: flex;
+	
+}
+.mov{
+	display: flex;
+	position: relative;
+	transition: transform 0.2s;
 }
 
 .image-container {
 	position: relative;
 	transition: transform 0.2s;
+	display: inline-block!important;
+	flex-direction: row!important;
+	/* align-items: center!important;
+	justify-content: center!important; */
+	/* display: inline-flex; */
 }
 
 .image-container:hover {
 	cursor: pointer;
-	transform: scale(1.1);
+	transform: scale(1);
 }
 
 .image-container:hover .overlay {
@@ -31,5 +43,5 @@ body {
 	bottom: 0;
 	font-size: 20px;
 	padding: 20px;
-	text-align: center;
+	text-align: left;
 }
