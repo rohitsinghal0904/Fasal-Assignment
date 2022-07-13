@@ -5,12 +5,18 @@ body {
 
 .movie-app > .row {
 	overflow-x: auto;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	display: flex;
+	margin-left: 80px;
+	/* width: 1000px;
+	margin: 0px;
+	overflow: -moz-hidden-unscrollable; */
+	
 	
 }
 .mov{
-	display: flex;
+	/* display: flex; */
+	/* margin-left: 50px; */
 	position: relative;
 	transition: transform 0.2s;
 }
